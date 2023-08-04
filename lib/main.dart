@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:showup_textanimation/showup.dart';
 
 import 'containeranimate.dart';
+import 'custom_marquesstext.dart';
 
 void main() {
   runApp(const MyApp());
@@ -53,7 +54,14 @@ class _MyHomePageState extends State<MyHomePage> {
             ShowUp(
               child: Column(
                 children: <Widget>[
-                  Text("Texts 1  flutterfever.com",style: TextStyle(color: Colors.pink,fontSize: 25),),
+                  Container(
+                    height: 50,
+                    width: 200,
+                    child: ScrollingText(
+                      text: ("Texts 1 flutterfever.com"),
+                      textStyle: TextStyle(color: Colors.pink,fontSize: 20),
+                    ),
+                  ),
                   Text("Texts 2 flutterfever.com",style: TextStyle(color: Colors.green,fontSize: 20)),
                   Text("Texts  3 flutterfever.com",style: TextStyle(color: Colors.purple,fontSize: 15)),
                 ],
