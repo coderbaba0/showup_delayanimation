@@ -3,35 +3,6 @@ import 'dart:math';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Animation extends StatefulWidget {
-  @override
-  _AnimationState createState() => _AnimationState();
-}
-
-class _AnimationState extends State<Animation> {
-  Map<String, String> map1 = {"0": 'zero', "1": "One", "2": "Two"};
-  int selectedIndex = 0;
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SafeArea(
-        child: Container(
-          color: Colors.white,
-          padding: EdgeInsets.only(left: 6),
-          child: Animated(
-              items: map1,
-              animationDuration: const Duration(milliseconds: 400),
-              onTap: (index) {
-                setState(() {
-                  selectedIndex = index;
-                }
-                );
-              }),
-        ),
-      ),
-    );
-  }
-}
 class Animated extends StatefulWidget {
   var items;
   final Duration animationDuration;
