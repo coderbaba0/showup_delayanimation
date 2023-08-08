@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 50,
                     width: 200,
                     child: ScrollingText(
-                      text: ("Texts 1 flutterfever.com"),
+                      text: ("Text first 1 flutterfever.com"),
                       textStyle: TextStyle(color: Colors.pink,fontSize: 20),
                     ),
                   ),
