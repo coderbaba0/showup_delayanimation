@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ),
                   Text("Texts 2 flutterfever.com",style: TextStyle(color: Colors.green,fontSize: 20)),
-                  Text("Texts  3 flutterfever.com",style: TextStyle(color: Colors.purple,fontSize: 15)),
+                  Text("Texts  three flutterfever.com",style: TextStyle(color: Colors.purple,fontSize: 15)),
                 ],
               ),
               delay: delayAmount + 900,
