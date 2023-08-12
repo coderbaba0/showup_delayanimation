@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
             //Note that this "ShowUp" widgets can animate anything, not just texts.
             // loading delay animation
             ShowUp(
-              child: Text("first show demo",style: TextStyle(color: Colors.purple,fontSize: 35)),
+              child: Text("first  show in demo",style: TextStyle(color: Colors.purple,fontSize: 35)),
               delay: delayAmount,
             ),
             ShowUp(
