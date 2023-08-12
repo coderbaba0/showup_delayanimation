@@ -21,7 +21,7 @@ class _AnimatedState extends State<Animated>
     with TickerProviderStateMixin {
   int selectedIndex = 0;
   late double height = 200, width = 200;
-
+//
   @override
   Widget build(BuildContext context) {
     /* height = MediaQuery.of(context).size.height;
