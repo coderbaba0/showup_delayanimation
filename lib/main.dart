@@ -29,7 +29,7 @@ class MyHomePage extends StatefulWidget {
 }
 class _MyHomePageState extends State<MyHomePage> {
   int delayAmount = 100;
-  Map<String, String> map1 = {"0": 'click on me', "1": "me too", "2": "Two"};
+  Map<String, String> map1 = {"0": 'click on ', "1": "me too", "2": "Two"};
   int selectedIndex = 0;
   @override
   Widget build(BuildContext context) {
